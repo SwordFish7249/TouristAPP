@@ -1,5 +1,5 @@
 
-function createTourist(name, surname, id, nationality, comment){
+function Tourist(name, surname, id, nationality, comment){
     const tourist = {};
     tourist.name = name;
     tourist.surname = surname;
@@ -9,3 +9,4 @@ function createTourist(name, surname, id, nationality, comment){
 
 }
 
+module.exports = Tourist;
